@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maribelle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header>
+    <div class="Banner">
+        <div class="navbar">
+            <h2 class="logo"><b>Maria.</b></h2>
+    <ul>
+        <li><a href="#"><b>Home</b></a></li>
+        <li><a href="#About"><b>About Me</b></a></li>
+        <li><a href="#Menu"><b>My Life</b></a></li>
+        <li><a href="#follow Me"><b>Follow Me</b></a></li>
+
+
+    </ul>
+        </div>
+    </div>
+  
+  </header>
+        <div class="title">
+           <div class="box" style="background-color: aquamarine; box-shadow: 10px 25px 30px rgba(92, 92, 235, 0.918);">
+            <div class="image">
+              <img src="image/BackgroundEraser_20230517_125543155.png" width="180px" height="600px" style="padding: 5%; ">
+            </div>
+           </div>
+
+           <div class="name" style="margin-top: -25%; margin-left: 30%;">
+            <h2><b>Mariabella</b></h2>
+            <h6>____________________________________________________________________________</h6>
+            <p>Vlogging about Hobbies, Fasion, Events & My Life!</p>
+
+        
+
+           </div>
+
+        </div>
+
+  
+
+
+
+
+
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script>
+              alert("Hello, Welcome to my personal blog!");
+            </script>
+
+
+</body>
+
+
+
+
+
+
+    <div id="About" style="padding: 5%; height: 105vh;">
+      <div class="container" style="width: 60vmin; position: absolute; transform: translate(-50%, -60%); top: 50%; left: 50%; overflow: hidden; border: 2px solid #ffffff; border-radius: 25px; box-shadow:  10px 25px 30px rgba(92, 92, 235, 0.918); margin-top: 57%; margin-left: -23%;">
+       <div class="wrapper">
+        <img src="image/1688203687505.jpg">
+        <img src="image/1688203577054.jpg">
+        <img src="image/IMG_20211130_163740.jpg">
+        <img src="image/IMG_20220325_102400.jpg">
+       </div>
+      </div>
+
+
+      <div class="row" style="margin-top: -1%; ">
+        <div class="name">
+          <h4>This is Me  </h4>
+          <p>I am simple, friendly, approachable and kind woman. I am also interested in photography and editing. My stress reliever are playing online games, watching netflix, reading stories, cooking and eating.  </p>
+          <p style="margin-top: 5%;">This is a great space to express my feelings to avoid boredom, feel comfy and relax.</p>
+
+          <li><a href="#follow Me"><button style="font-family: arial;"><b>Follow Me</b></button></a></li>
+
+        </div>
+
+        
+
+      </div>
+
+
+    </div>
+
+
+
+  <div id="Menu" style="padding: 5%;">
+    <!-- Header -->
+<div class="header" id="myHeader" style="text-align: center; padding: 32px;">
+  <h1 style="font-family: sans-serif;">#Mariabella On Insta</h1>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row" style="display: -ms-flexbox; /* IE 10 */ display: flex; -ms-flex-wrap: wrap; /* IE 10 */ flex-wrap: wrap; padding: 0 4px;"> 
+  <div class="column">
+    <img src="image/1665064360645.jpg" style="width:100%">
+    <img src="image/1694408512742.jpg" style="width:100%">
+    <img src="image/1695459579776.jpg" style="width:100%">
+    <img src="image/1695555018464.jpg" style="width:100%">
+    
+  </div>
+  <div class="column">
+    <img src="image/received_1356053595252156.jpeg" style="width:100%">
+    <img src="image/received_180616328185297.jpeg" style="width:100%">
+    <img src="image/pic03.jpg" style="width:100%">
+    <img src="image/1678704844019.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="image/received_1909816492688214.jpeg" style="width:100%">
+    <img src="image/received_1544960285992182.jpeg" style="width:100%">
+    <img src="image/IMG_20220325_102400.jpg" style="width:100%">
+    <img src="image/pic05.jpg" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img src="image/received_728055198915338.jpeg" style="width:100%">
+    <img src="image/1688203577054.jpg" style="width:100%">
+    <img src="image/IMG_20230505_134425.jpg" style="width:100%">
+    <img src="image/IMG_20230505_134454.jpg" style="width:100%">
+  </div>
+</div>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+
+
+
+<footer>
+   
+    <footer class=" ">
+       <div class="footme" style="margin-left: -70%;">
+        <h5 style="color: black;">Mariabella</h5>
+            <p>Personal Blog</p>
+
+       </div>
+        
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+       <div id="follow Me">
+       <div class="footmi" style="margin-top: -8%;">
+        <h3 style="color: black;">Social Media Accounts</h3>
+        <!-- Add font awesome icons -->
+        <div class="icon" style="margin-left: 43%;">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+      </div>
+       </div>
+      </div>
+
+       <div class="number" style="margin-left: 70%; margin-top: -11%;">
+        <h2 style="color: black;">Contact Number</h2>
+        <h4><b>Telephone No.</b><i style="color: dodgerblue;"> 6398763</i></h4>
+        <h5><b>Cellphone No.</b> <i style="color: dodgerblue;">09123117545</i></h5>
+       </div>
+
+
+        <div class="footer-copyright" style="margin-top: 6%;">
+          <div class="foot2">
+            © 2023 Copyright
+
+
+          </div>
+        </div>
+      
+      </footer>
+</footer>
+</html>
